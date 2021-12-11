@@ -170,13 +170,13 @@ function runTests() {
       const descEl = document.querySelector('#weather > p:nth-child(4)')
       expect(descEl.textContent).to.eq('clear sky')
     })
-    it('should display current temp', async function() {
-      const currentTempEl = document.querySelector('#weather > p:nth-child(6)')
-      expect(currentTempEl.textContent).to.eq('Current: 80.56° F')
+    it('should display Current temp', async function() {
+      const CurrentTempEl = document.querySelector('#weather > p:nth-child(6)')
+      expect(CurrentTempEl.textContent).to.eq('Current: 80.56° F')
     })
-    it('should display current "feels like" temp', async function() {
-      const currentFeelsTempEl = document.querySelector('#weather > p:nth-child(7)')
-      expect(currentFeelsTempEl.textContent).to.eq('Feels like: 84.33° F')
+    it('should display Current "feels like" temp', async function() {
+      const CurrentFeelsTempEl = document.querySelector('#weather > p:nth-child(7)')
+      expect(CurrentFeelsTempEl.textContent).to.eq('Feels like: 84.33° F')
     })
     it('should display updated time', async function() {
       const updatedTimeEl = document.querySelector('#weather > p:nth-child(9)')
